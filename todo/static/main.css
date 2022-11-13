@@ -1,0 +1,147 @@
+body{
+    background-color: bisque;
+    font-family: 'Courier New', Courier, monospace;
+  
+    margin: 0;
+    padding: 0;
+    top: 0;
+    left: 0;
+}
+
+#title1{
+    display: flex;
+    flex-flow: row wrap;
+    padding: 1%;
+    padding-left: 20px;
+}
+
+#usersp{
+    border: solid 2px black ;
+    border-radius: 25px;
+    padding: 15px;
+    text-decoration: none;
+    transition:  0.1s;
+    color:black;
+}
+
+.baseHead{
+    background-color: lightsteelblue;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    top: 0;
+    left: 0;
+    box-shadow: 0px 2px 2px rgba(0,0,0,0.2);
+}
+.hbutton{
+    padding-right: 20px;
+    justify-self:right;
+    display: inline-block;
+    list-style-type: none; 
+}
+
+.hbutton a{
+    padding: 15px;
+    text-decoration: none;
+    transition:  0.1s;
+    color: black;
+    border-radius: 50px;
+    background-color:snow;
+}
+
+
+.hbutton a:hover{
+    transform: scale(1.05,1.05);
+    background-color: lightblue;
+}
+
+
+.action {
+    
+    padding-right: 20px;
+    display: inline-block;
+    list-style-type: none; 
+    padding: 8px;
+    text-decoration: none;
+    transition:  0.1s;
+    color: black;
+    border-radius: 50px;
+    background-color:snow;
+}
+
+
+ .action:hover {
+    transform: scale(1.1,1.1);
+    background-color: lightblue;
+
+
+}
+.content{
+    
+    width:40%;
+    background-color:cornsilk;
+    padding: 12px 20px;
+    border-radius: 4px;
+    box-shadow: 0px 2px 2px rgba(0,0,0,0.2);
+    margin: auto;
+    margin-top: 5%;
+}
+
+input[type=text]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+
+input[type=password]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+
+input[type=submit]{
+    width:100%;
+    background-color: lightblue;
+    border: none;
+    border-radius: 4px;
+    padding: 14px 20px;
+    margin: 8px 0px;
+    cursor: pointer;
+}
+
+footer{
+    background-color: lightsteelblue;
+    display: flex;
+    align-items:flex-end;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    left: 0;
+    margin-top: auto;
+    box-shadow: 0px 2px 2px rgba(0,0,0,0.2);
+}
+
+.pie{
+    width:40%;
+    background-color:cornsilk;
+    padding: 12px 20px;
+    border-radius: 4px;
+    box-shadow: 0px 2px 2px rgba(0,0,0,0.2);
+    margin: auto;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
